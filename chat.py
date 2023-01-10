@@ -6,7 +6,7 @@ import os
 
 # load_dotenv('api_key.env')
 
-openai.api_key = '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'
+openai.api_key = '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'
 
 def generate_response(prompt):
     completion=openai.Completion.create(
